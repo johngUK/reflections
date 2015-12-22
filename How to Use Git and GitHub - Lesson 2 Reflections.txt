@@ -10,3 +10,9 @@ You may also wish to run git status after you have created the file.
 You should see that now both files are listed as untracked files.
 
 When you've created and updated your reflections document for lesson 2, click "Next."
+
+How is the staging area different from the working directory and the repository? 
+working directory has uncommited files, repository had files committed to version control.
+staging area has prelinary but not filal commits 
+What value do you think it offers?
+It allows file changes to be added incrementally and undone before a final commit is made.
