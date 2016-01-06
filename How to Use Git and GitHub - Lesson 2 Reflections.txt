@@ -16,3 +16,42 @@ working directory has uncommited files, repository had files committed to versio
 staging area has prelinary but not filal commits 
 What value do you think it offers?
 It allows file changes to be added incrementally and undone before a final commit is made.
+
+What are some situations when branches would be helpful in keeping your history organized?
+If you wished to try something out without affecting the main branch.
+If you had several people working on the same code 
+and didn't want the individual changes until they had been fully tested 
+How would branches help?
+by facilitating the above
+
+How do the diagrams help you visualize the branch structure?
+They represent tree structures in a more understandable way than a verbal explanation.
+
+Useful commands:
+ls -a
+git init - creates a repository
+git log - shows state of git repository - what commits it has
+git log --stat shows which files changed and how many lines changed in each file
+git status - shows which files have changed since last commit
+git checkout versionNo - sets files in current directory to commit(versionNo)
+git checkout master - sets files in current directory to latest commit
+
+git branch - shows current branches with a '*' next to branch currently checked out
+git branch newBranchName - creates new branch at current versionNo with name 'Branchlabel'
+git checkout BranchLabel - sets working directory to BranchLabel 'Master' is latest BranchLabel
+git checkout -b newBranchName - Creates and checks out a new branch
+git merge master coins - merges coins branch 'into' master branch
+git add - adds files to git staging area - (changes to be committed)
+git commit - adds staging area files to git repository and appends a user supplied comment to that commit
+git diff versionNo1 versionNo2 - compares two different versions of a file within git - since diff takes 
+two commits and compares them we are going to call this the 'operates on' relationship.
+
+git log --graph --oneline master coins - shows differences between master and coins branches
+
+
+
+git diff --staged - shows changes between staging area and repository
+
+
+Web filing submission number
+037-236548
