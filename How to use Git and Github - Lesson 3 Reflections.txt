@@ -1,3 +1,6 @@
+to setup up shell to store git credentials, type 
+git config --global credential.helper wincred
+
 When would you want to use a remote repository rather than keeping all your work local?
 
     Because My computer may break or it may be stolen or I may wish to share/collaborate in my work (files) with other people
