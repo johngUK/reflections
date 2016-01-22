@@ -24,14 +24,19 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If you went on holiday and there were several changes to the remote,
+	you could do merges to a commit at the state when you left.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Wouldnt have to learn git.
+	Would be more difficult to merge files and keep track of versions containing multiple files at different issue states
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    you can pull changes when the build has advanced	
+	and resolve conflicts between them and your own changes before pushing them up to a colloborative fork.
+	working on the main branch is simpler.
+	
