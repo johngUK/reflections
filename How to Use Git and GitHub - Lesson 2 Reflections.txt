@@ -13,7 +13,7 @@ When you've created and updated your reflections document for lesson 2, click "N
 
 How is the staging area different from the working directory and the repository? 
 working directory has uncommited files, repository had files committed to version control.
-staging area has prelinary but not filal commits 
+staging area has prelinary but not final commits 
 What value do you think it offers?
 It allows file changes to be added incrementally and undone before a final commit is made.
 
@@ -29,6 +29,7 @@ They represent tree structures in a more understandable way than a verbal explan
 
 Useful commands:
 ls -a
+git clone URL - copies an entire repository from a remote computer to a local computer.
 git init - creates a repository
 git log - shows state of git repository - what commits it has
 git log --stat shows which files changed and how many lines changed in each file

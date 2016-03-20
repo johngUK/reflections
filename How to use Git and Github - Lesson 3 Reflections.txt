@@ -39,4 +39,15 @@ master?  What benefits does each approach have?
     you can pull changes when the build has advanced	
 	and resolve conflicts between them and your own changes before pushing them up to a colloborative fork.
 	working on the main branch is simpler.
-	
+
+Useful GitHub Commands:
+1. Creating a Remote Repository
+After creating an account on www.github.com Login to your account, then
+click '+' on menu topbar next to your username and Select 'New repository.'
+Fill in remote Repository name - e.g. reflections then 
+leave 'public ' selected and
+don't select 'Initialise this Repository with a README,' if you have already created the repository locally. 
+However, if you wish to clone the remote  repository as a local repository, then select 'Initialise this Repository with a README,'
+as github does not allow cloning of an empty repository.
+Then click the 'Create repository' button to create a remote repository.
+
